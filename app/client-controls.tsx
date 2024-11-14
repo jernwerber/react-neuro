@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useContext, MouseEventHandler, ReactNode } from 'react';
-import { ArrowPathSvg, ChevronUpSvg, EyeSvg, EyeSlashSvg, PlusCircleSvg, UturnLeftArrowSvg, UturnRightArrowSvg, ChevronRightSvg, ChevronLeftSvg } from './icons';
+import { useState, useContext, useEffect, MouseEventHandler, ReactNode } from 'react';
+import { ArrowPathSvg, ChevronUpSvg, EyeSvg, EyeSlashSvg, ChevronRightSvg, ChevronLeftSvg } from './icons';
 import { UseOverlayContext } from './client-images';
 
 
@@ -160,7 +160,7 @@ export function ViewControls({view, viewSetter, imageIndexSetter, useOverlaySett
 
             </VerticalControlBar>
             <VerticalControlBar>
-                <ViewSwitchButton action={ ()=>{ 
+                <ViewSwitchButton action={()=>{ 
                         useOverlaySetter((o:boolean) => !o);
                     }}
                     title={ useOverlayContext? "Hide overlay" : "Show overlay" }>
