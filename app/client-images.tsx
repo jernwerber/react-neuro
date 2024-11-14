@@ -36,7 +36,7 @@ export function ImageViewer( {viewportSize={width:800,height:600}, startIndex=0}
     const [imageIndex, setImageIndex] = useState(startIndex);
     const [view, setView] = useState('vertical');
     const [overlay, setOverlay] = useState(false);
-    const [actualSize, setActualSize ] = useState(100);
+    // const [actualSize, setActualSize ] = useState(100);
  
     const imageSet: ImageList = IMAGESETS[view];
     
@@ -97,7 +97,7 @@ export function ImageViewer( {viewportSize={width:800,height:600}, startIndex=0}
     );
 }
 
-export function ImageLoader( { basePath="/images/", startIndex=0,imageList, extension="jpg"}:{ basePath?: string, startIndex?: number, imageList: ImageList, extension?: string} ) {
+export function ImageLoader( { basePath="/images/", imageList, extension="jpg"}:{ basePath?: string, imageList: ImageList, extension?: string} ) {
 
     const [calcHeight, setCalcHeight] = useState(imageList.baseSize.height);
 

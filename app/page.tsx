@@ -1,5 +1,5 @@
 import { ImageViewer } from "./client-images";
-import { ArrowTopRight, GithubIconSvg, LinkedInIconSvg, PlusCircleSvg } from "./icons";
+import { ArrowTopRight, GithubIconSvg, LinkedInIconSvg } from "./icons";
 
 export default function Page() {
 

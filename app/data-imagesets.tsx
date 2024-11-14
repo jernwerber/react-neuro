@@ -1,4 +1,4 @@
-import { ImageListCollection, ImageList } from "./client-images"
+import { ImageListCollection } from "./client-images"
 
 
 
