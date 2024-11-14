@@ -1,36 +1,15 @@
+# `React.neuronline` 🧠
+
+## Citation
+Wiper-Bergeron N, Weber J, Imbeault S, Goodwin S. Neuronline. _MedEdPORTAL_. 2011;7:8266. https://doi.org/10.15766/mep_2374-8265.826.
+
+(Re-)created using React, Tailwind, and NextJS by [@jernwerber](https://github.com/jernwerber)
+
+## License
+This is based on an open-access publication distributed under the terms of the [Creative Commons Attribution-NonCommercial-Share Alike (CC BY-NC-SA)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) license.
+
+## Description
+_A good understanding of the 3D organization of deep brain structures is essential to understand brain function, to predict functional deficits following lesion or trauma, and to interpret radiological images. To improve learning of deep cerebral structures for novice neuroanatomists, a stereoscopic, rotatable view of a human brain was used to create a virtual brain that can be rotated in an easy-to-use web-based module: Neuronline. Learners can also slice the virtual brain in both the coronal and horizontal planes, allowing for the identification of deep brain structures. Each brain slice is matched to a corresponding MRI image and labels can be toggled on or off. An orientation diagram helps students locate a structure within the virtual brain. This tool is designed for learners with limited neuroanatomy experience. For the student new to neuroanatomy, learning the organization of deep brain structures and fiber tracts can be daunting. Neuronline also has the advantage of being portable, and can be used prior to gross anatomy lab sessions or in-lab as a study guide._
+
+## Other
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
