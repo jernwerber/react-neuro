@@ -94,7 +94,7 @@ export default function Page() {
     );
 }
 
-export function BubbleSpan( { children, colorClass="bg-slate-800" } : { children: string, colorClass?: string }) {
+function BubbleSpan( { children, colorClass="bg-slate-800" } : { children: string, colorClass?: string }) {
     return (
         <span 
             className={`px-2 pt-[2px] pb-[2px] rounded-full font-noto text-sm font-[400] whitespace-nowrap ${ colorClass }`}
@@ -109,7 +109,7 @@ export function BubbleSpan( { children, colorClass="bg-slate-800" } : { children
 
 
 
-export function ExternalLink( { children, href="#" } : {children: string, href: string}) {
+function ExternalLink( { children, href="#" } : {children: string, href: string}) {
     return (
         <a href={`${ href }`} target="_blank" className="underline underline-offset-4 decoration-dotted hover:decoration-solid">{ children } <ArrowTopRight className="inline size-3" /></a>
     );
